@@ -81,7 +81,8 @@ body{
 /* Animation */
 
 #page-1 p{
-    animation: animate1 var(--animate-speed) forwards ease-in-out;    
+    animation: animate1 var(--animate-speed) forwards ease-in-out 2s;
+    transform: translateX(-1800px);    
 }
 
 #page-1 h1{
